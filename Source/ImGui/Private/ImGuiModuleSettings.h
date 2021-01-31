@@ -155,7 +155,7 @@ private:
 };
 
 // UObject used for loading and saving ImGui settings. To access actual settings use FImGuiModuleSettings interface.
-UCLASS(config=ImGui, defaultconfig)
+UCLASS(config=Game, defaultconfig)
 class UImGuiSettings : public UObject
 {
 	GENERATED_BODY()
